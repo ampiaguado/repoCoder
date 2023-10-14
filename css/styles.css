@@ -1,0 +1,235 @@
+@import url('https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cantarell:wght@700&display=swap');
+
+*{  margin: 0px;
+    padding: 0px;
+    font-family: 'Cantarell', sans-serif;
+    color: rgb(197, 190, 190);
+   }
+
+.navegador{ 
+    display: flex;
+    background-color: whitesmoke;
+    width: 100%;
+    top: 0%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+.navegador ul{ 
+    display: flex;
+    list-style: none;
+}
+.navegador .png{ 
+    width: 100px;
+    height: 100px;
+}
+.navegador ul li a{
+    display: block;
+    text-decoration: none;
+    font-size: 24px;
+    padding: 10px 20px;
+    margin: 10px 20px;
+    align-items: start;
+  }
+
+
+.inicioFondo{ 
+    background-image: url('../multimedia/imagenes/fondo-papel-beige-simple-artesania-bricolaje.jpg');
+    background-size: cover;
+    background-attachment: scroll;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    position: absolute;
+}
+.logo-container h1{ 
+
+    display: flex;
+    font-family: 'Newsreader', serif;
+    justify-content: center;
+    font-size: 100px;
+    color: grey;
+    align-items: center;
+    text-align: center;
+}
+.Titulos-principales{ 
+    background-image: url('../multimedia/imagenes/fondo-papel-beige-simple-artesania-bricolaje.jpg');
+    background-size: cover;
+    position: relative;
+    height: 350px;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+.Titulos-principales h2{ 
+
+    color: rgb(80, 73, 73); 
+    text-align: center;
+}
+
+.Titulos-principales p{
+    
+    color: rgb(172, 166, 166); 
+    text-decoration: underline; 
+    text-align: center;
+}
+
+
+.portada{     
+        height: 350px;
+        background-image: url(../multimedia/imagenes/aH.jpg);
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .portada h1{ 
+        color: white;
+        text-align: center;
+        font-size: 48px;
+    }
+
+.tarjetas{ 
+    display: flex;
+    flex-wrap: wrap;
+}
+.pasos{ 
+        width: 300px;
+        border-radius: 30px;
+        border: 1px solid #ccc;
+        padding: 10px;
+        margin: 20px;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;}
+   
+.pasos img{ 
+        width: 300px;
+        border-radius: 30px;
+ }
+ .pasos h2{
+    text-align: end;
+ }
+
+ .pasos p{ 
+    font-size: 20px;
+    text-align: start;
+ }
+
+ .bloque{ 
+    margin: 0%;
+    padding: 0%;
+    width: 100%;
+    height: 100%;
+    background-color: #dfdada;
+    background-size: cover;
+    border: 3px solid;
+    border-radius: 30px;
+    border-color:white;
+    color: white;
+ }
+ .bloque p{
+   margin: 20px;
+ } 
+ 
+ 
+ .notaAmparo{
+    display: flex;
+        justify-content: center;
+        align-items: center;
+    align-items: center;
+    padding: 10px;
+    margin: 20px;
+    
+ }
+ .notaAmparo h2{
+    text-align: justify;
+ }
+ .notaAmparo p{
+    flex-direction: column;
+ }
+.notaAmparo img{
+    width: 300px;
+    border-radius: 30px;
+ }
+ .consumo{ 
+    display: flex;
+        justify-content: center;
+        align-items: center;
+ }
+ .consumo{
+        height: 350px;
+        background-image: url(../multimedia/imagenes/manooo.jpg); 
+        background-size: cover;
+        display: flex;
+        justify-content: start;
+        align-items: start;
+       
+ }
+.consumo h2{
+    text-align: start;
+    display: flex;
+    padding: 10%;
+ }
+
+
+
+
+    footer {
+        background-color: blue;
+        position: sticky;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+      }
+
+ .logoPie{ 
+    align-items: center;
+ }
+ 
+ .logoPie h2{ 
+    font-size: 24px;
+    margin: 0;
+    margin-bottom: 10px;
+    color: grey;
+    font-family: 'Newsreader', serif;
+    display: flex;
+    text-align: center;
+    gap: 15px;
+    flex-direction: column;
+ }
+.redes{
+    display: flex;
+    justify-content: center;
+
+}
+.redes a{ 
+    margin: 0 10px;
+}
+.redes img{
+    width: 50px;
+    height: 50px;
+ }
+
+ .contatoLabel{
+    font-size: 18px;
+    font-weight: 600;
+ }
+ 
+
+
+
+
+
+
+  
+    
+   
+  
